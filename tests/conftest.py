@@ -6,8 +6,7 @@ CURRENT_FILE = os.path.abspath(__file__)
 CURRENT_DIRECTORY = os.path.dirname(CURRENT_FILE)
 CURRENT_PROJECT_PATH = os.path.dirname(CURRENT_DIRECTORY)
 TMP_FILES_PATH = os.path.join(CURRENT_PROJECT_PATH, "tmp")
-ARCHIVE_PATH = os.path.join(TMP_FILES_PATH, "archives")
-ARCHIVE_FILE_PATH = os.path.join(ARCHIVE_PATH, "archive_files.zip")
+ARCHIVE_FILE_PATH = os.path.join(TMP_FILES_PATH, "archive_files.zip")
 
 
 @pytest.fixture(scope='function', autouse=True)
